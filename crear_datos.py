@@ -1,11 +1,11 @@
 import pandas as pd
 
 generales = pd.DataFrame([{
-    "estudiante": "Ronaldinho Andres Coaguila Mendoza",
-    "institucion": "Politécnico Rafael Santiago Loayza Guevara",
+    "estudiante": "aaaaaaaaaaaaaa",
+    "institucion": "aaaaaaaaaaaaaaaaa",
     "area": "AIP",
-    "periodo": "Del 24 de agosto al 8 de septiembre de 2026",
-    "monitor": "Héctor Jaramillo LL",
+    "periodo": "aaaaaaaaaaaaaa",
+    "monitor": "aaaaaaaaaaaaa",
 }])
 
 actividades = pd.DataFrame([
@@ -14,9 +14,9 @@ actividades = pd.DataFrame([
     {"fecha": "25 de agosto de 2026", "titulo": "Familiarización con la plataforma estudiantil",
      "notas": "exploré Moodle, sus funciones, usuarios, cursos y recursos"},
     {"fecha": "28 de agosto de 2026", "titulo": "Administración y depuración de la plataforma",
-     "notas": "creé cuentas de administrador, revisé la base de datos, eliminé duplicados, corregí datos de alumnos"},
+     "notas": "creé cuentas de administrador, revisé la base de datos, eliminé duplicados, corregí datos"},
     {"fecha": "1 de septiembre de 2026", "titulo": "Monitoreo y verificación de cursos",
-     "notas": "monitoreo de estudiantes, apoyo a docentes en Matemática con GeoGebra, verifiqué cursos activos"},
+     "notas": "monitoreo , apoyo a docentes en , verifiqué cursos activos"},
 ])
 
 with pd.ExcelWriter("informe_datos.xlsx") as writer:
